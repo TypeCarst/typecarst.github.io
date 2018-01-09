@@ -4,6 +4,6 @@ highlighter:      rouge
 
 theme: jekyll-theme-hydeout
 title: Blog von cfloeth
-description: This site is used for showcasing projects and different solutions I solved in the past.
+description: This site is used for showcasing projects and different solutions I developed in the past.
 
 sidebar_home_link:  true
