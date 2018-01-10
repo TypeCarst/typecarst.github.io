@@ -3,7 +3,16 @@ markdown:         kramdown
 highlighter:      rouge
 
 theme: jekyll-theme-hydeout
-title: Blog von cfloeth
-description: This site is used for showcasing projects and different solutions I developed in the past.
+title: cfloeth
+description: GameDev and Computer Science
+
+paginate: 5
+
+plugins:
+  - jekyll-feed
+  - jekyll-gist
+  - jekyll-paginate
 
 sidebar_home_link:  true
+disqus:
+  shortname: cfloeth
