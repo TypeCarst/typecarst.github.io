@@ -28,7 +28,7 @@ During searching for a working solution, which let me train without errors and i
 
 The first issue is of course a rather simple one, but it took me some time to realize, what was happening. Just change the class name in the FlickrLogos32 dataset and you are set. Or leave it as it is, if you are not using the expansion.
 
-The second "issue" is the process to convert the bounding box notation of FlickrLogos32 to the one used by Darknet. Every bounding box has four values in the FlickrLogos32 dataset: x, y, width, height, where (x,y) is top left corner of the bounding box.
+The second "issue" is the process to convert the bounding box notation of FlickrLogos32 to the one used by DetectNet and Darknet. Every bounding box has four values in the FlickrLogos32 dataset: x, y, width, height, where (x,y) is top left corner of the bounding box.
 
 #### KITTI
 
