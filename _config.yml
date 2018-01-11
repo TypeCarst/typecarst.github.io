@@ -2,7 +2,7 @@
 markdown:         kramdown
 highlighter:      rouge
 
-theme: jekyll-theme-hydeout
+#theme: jekyll-theme-hydeout
 title: cfloeth
 description: GameDev and Computer Science
 
