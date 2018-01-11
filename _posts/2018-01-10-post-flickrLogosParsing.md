@@ -13,7 +13,7 @@ tags:
   - flickrlogos
 ---
 
-In my master thesis I had to detect brand logos in different images and considered the convolutional neural networks [DetectNet](https://devblogs.nvidia.com/parallelforall/detectnet-deep-neural-network-object-detection-digits/) and [YOLOv2](https://pjreddie.com/darknet/yolo/). The dataset [FlickrLogos32](http://www.multimedia-computing.de/flickrlogos/) and an expansion called [Logos-32plus](http://www.ivl.disco.unimib.it/activities/logo-recognition/) were chosen for the training and validation.
+For my master thesis I had to detect brand logos in different images and considered the convolutional neural networks [DetectNet](https://devblogs.nvidia.com/parallelforall/detectnet-deep-neural-network-object-detection-digits/) and [YOLOv2](https://pjreddie.com/darknet/yolo/). The dataset [FlickrLogos32](http://www.multimedia-computing.de/flickrlogos/) and an expansion called [Logos-32plus](http://www.ivl.disco.unimib.it/activities/logo-recognition/) were chosen for the training and validation.
 
 Following I will describe some issues I had preparing the datasets and how the parsing script works, which you can find in my [GitHub repository](https://github.com/cfloeth/Tools/blob/master/ParseFlickrLogos.cs).
 
