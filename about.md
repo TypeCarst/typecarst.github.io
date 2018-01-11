@@ -10,4 +10,4 @@ My career started with a B.Sc. in Computer Science at the Freie Universität Ber
 
 To gain some more practical experience I worked fulltime in a team on an SAP Business One AddOn. During this time I could improve my C# skills.
 
-I decided to attend a master's course due to my desire to learn more in 2015. The focus of my studies were Augmented Reality, image processing and some machine learning at the end. My studies are about to end and I'm looking forward to new opportunities to show and improve my skills.
+I decided to attend a master's course due to my desire to learn more in 2015. The focus of my studies were Augmented Reality, image processing and some machine learning at the end. My studies are about to end and I'm looking forward to new opportunities to show and improve my skills. As a way of doing this I decided to start this blog, so that I stay motivated and can share my knowledge with you.
