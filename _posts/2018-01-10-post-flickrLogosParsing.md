@@ -13,9 +13,9 @@ tags:
   - flickrlogos
 ---
 
-For my master thesis I had to detect brand logos in different images and considered the convolutional neural networks [DetectNet](https://devblogs.nvidia.com/parallelforall/detectnet-deep-neural-network-object-detection-digits/){:target="_blank"} and [YOLOv2](https://pjreddie.com/darknet/yolo/). The dataset [FlickrLogos32](http://www.multimedia-computing.de/flickrlogos/){:target="_blank"} and an expansion called [Logos-32plus](http://www.ivl.disco.unimib.it/activities/logo-recognition/){:target="_blank"} were chosen for the training and validation.
+For my master thesis I had to detect brand logos in different images and considered the convolutional neural networks [DetectNet](https://devblogs.nvidia.com/parallelforall/detectnet-deep-neural-network-object-detection-digits/) and [YOLOv2](https://pjreddie.com/darknet/yolo/). The dataset [FlickrLogos32](http://www.multimedia-computing.de/flickrlogos/) and an expansion called [Logos-32plus](http://www.ivl.disco.unimib.it/activities/logo-recognition/) were chosen for the training and validation.
 
-Following I will describe some issues I had preparing the datasets and how the parsing script works, which you can find in my [GitHub repository](https://github.com/cfloeth/Tools/blob/master/ParseFlickrLogos.cs){:target="_blank"}.
+Following I will describe some issues I had preparing the datasets and how the parsing script works, which you can find in my [GitHub repository](https://github.com/cfloeth/Tools/blob/master/ParseFlickrLogos.cs).
 
 ### Problems
 
@@ -65,7 +65,7 @@ The '1' is the index of the class, which is declared in another file.
 
 In this post I showed my way to parse the FlickrLogos32 dataset into the KITTI and Darknet format. I hope I could save you some time with this little explanation. Maybe I will go into some other details later one.
 
-A small note to my [script](https://github.com/cfloeth/Tools/blob/master/ParseFlickrLogos.cs){:target="_blank"}: the five parameters needed are 'classes directory', 'split percentage for validation set', 'include images without logos', 'side length for resizing' and 'format'. At the moment you can not use 'true' to use images without logos. I chose '500' for the resized side length to get a dataset, which holds images of similar sizes, but it is not necessary. It could lead to more problems, if the image has to be scaled down and the objects displayed in it are too small for detection. 
+A small note to my [script](https://github.com/cfloeth/Tools/blob/master/ParseFlickrLogos.cs): the five parameters needed are 'classes directory', 'split percentage for validation set', 'include images without logos', 'side length for resizing' and 'format'. At the moment you can not use 'true' to use images without logos. I chose '500' for the resized side length to get a dataset, which holds images of similar sizes, but it is not necessary. It could lead to more problems, if the image has to be scaled down and the objects displayed in it are too small for detection. 
 
 An example of usage for the parameters is:
 
