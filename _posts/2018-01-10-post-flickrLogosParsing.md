@@ -1,5 +1,6 @@
 ---
 layout: post
+comments: true
 title: Parsing of FlickrLogos32 dataset
 categories: 
   - Computer Science

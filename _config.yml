@@ -14,5 +14,6 @@ plugins:
   - jekyll-paginate
 
 sidebar_home_link:  true
+
 disqus:
-  shortname: cfloeth
+  shortname: https-cfloeth-github-io
