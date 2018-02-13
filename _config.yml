@@ -3,8 +3,8 @@ markdown:         kramdown
 highlighter:      rouge
 
 #theme: jekyll-theme-hydeout
-title: C. Flöth
-description: GameDev and Computer Science
+title:        C. Flöth
+description:  GameDev and Computer Science
 
 paginate: 5
 
@@ -16,4 +16,11 @@ plugins:
 sidebar_home_link:  true
 
 disqus:
-  shortname: https-cfloeth-github-io
+  shortname:  https-cfloeth-github-io
+
+github:
+  repo:       https://github.com/cfloeth
+
+social:
+  linkedin:   https://www.linkedin.com/in/carsten-fl%C3%B6th-b7a75185/
+  xing:       https://www.xing.com/profile/Carsten_Floeth

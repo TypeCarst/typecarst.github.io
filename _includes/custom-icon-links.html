@@ -1,1 +1,16 @@
 <!-- Optional additional links to insert for icons links -->
+{% if site.social.linkedin %}
+	<a id="linkedin-link"
+	   class="icon" title="Linkedin" aria-label="Linkedin"
+	   href="{{ site.social.linkedin }}" target="_blank">
+	  {% include svg/linkedin.svg %}
+	</a>
+{% endif %}
+
+{% if site.social.xing %}
+	<a id="xing-link"
+	   class="icon" title="Xing" aria-label="Xing"
+	   href="{{ site.social.xing }}" target="_blank">
+	  {% include svg/xing.svg %}
+	</a>
+{% endif %}
