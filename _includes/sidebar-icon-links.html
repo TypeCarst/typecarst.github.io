@@ -13,6 +13,22 @@
     </a>-->
   {% endif %}
 
+  {% if site.social.linkedin %}
+    <a id="linkedin-link"
+       class="icon" title="Linkedin" aria-label="Linkedin"
+       href="{{ site.social.linkedin }}" target="_blank">
+      {% include svg/linkedin.svg %}
+    </a>
+  {% endif %}
+
+  {% if site.social.xing %}
+    <a id="xing-link"
+       class="icon" title="Xing" aria-label="Xing"
+       href="{{ site.social.xing }}" target="_blank">
+      {% include svg/xing.svg %}
+    </a>
+  {% endif %}
+
   <a id="subscribe-link"
      class="icon" title="Subscribe" aria-label="Subscribe"
      href="{{ site.baseurl }}/feed.xml">
