@@ -13,7 +13,7 @@ plugins:
   - jekyll-gist
   - jekyll-paginate
 
-sidebar_home_link:  true
+#sidebar_home_link:  false
 
 disqus:
   shortname:  https-cfloeth-github-io

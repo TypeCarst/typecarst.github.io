@@ -1,7 +1,7 @@
 ---
-layout: category
+layout: page
 title: Imprint
-category: ZZZ
+sidebar_link: false
 ---
 
 Information in accordance with section 5 TMG<br/><br/>
