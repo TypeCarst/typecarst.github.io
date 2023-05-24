@@ -3,7 +3,7 @@ markdown:         kramdown
 highlighter:      rouge
 
 #theme: jekyll-theme-hydeout
-title:        C. Flöth
+title:        C. Blöcher
 description:  GameDev and Computer Science
 
 paginate: 5
@@ -16,11 +16,11 @@ plugins:
 #sidebar_home_link:  false
 
 disqus:
-  shortname:  https-cfloeth-github-io
+  shortname:  https-typecarst-github-io
 
 github:
-  repo:       https://github.com/cfloeth
+  repo:       https://github.com/typecarst
 
 social:
-  linkedin:   https://www.linkedin.com/in/carsten-fl%C3%B6th-b7a75185/
+  linkedin:   https://www.linkedin.com/in/carsten-bl%C3%B6cher-b7a75185/
   xing:       https://www.xing.com/profile/Carsten_Floeth
