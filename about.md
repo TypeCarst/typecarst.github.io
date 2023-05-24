@@ -4,7 +4,7 @@ title: About
 sidebar_link: true
 ---
 
-Thanks for your interest in my activities. I'm Carsten Flöth, a Software Developer from Germany. 
+Thanks for your interest in my activities. I'm Carsten Blöcher, a Software Developer from Germany. 
 
 My career started with a B.Sc. in Computer Science at the Freie Universität Berlin where I concentrated on Game Development and Computer Graphics. This resulted in two group projects to create games and an internship which gave me the opportunity to work on a title released back in 2013. 
 
